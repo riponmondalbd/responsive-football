@@ -143,3 +143,59 @@ body {
     margin-bottom: 63px;
     margin-top: 20px;
 }
+
+@media only screen and (max-width:360px) {
+    .top-banner{
+        height: 695px;
+    }
+    .top-banner, .articlels, .highlight{
+        grid-template-columns: repeat(1, 1fr);
+        width: 360px;
+    }
+    .left-content-highlight h2{
+        font-size: 30px;
+        width: 295px;
+    }
+    .left-content-highlight p{
+        font-size: 16px;
+        width: 329px;
+    }
+    .top-banner-left-content h1{
+        font-size: 36px;
+    }
+    .top-banner-left-content{
+        padding-left: 15px;
+    }
+    .top-banner-right-content{
+        padding: 20px;  
+    }
+    .articlels{
+        margin-top: 47px;
+    }
+    .single-article{
+        margin: 0 15px;
+    }
+    .highlight-section{
+        margin-top: 60px;
+    }
+    .right-content-highlight img{
+        width: 100%;
+    }
+    .left-content-highlight{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .right-content-highlight{
+        padding: 16px;
+    }
+    .top-banner-button{
+        margin: 0;
+    }
+    .logo-section img{
+        width: 100%;
+        height: 60px;
+        margin-top: 54px;
+    }
+
+
+}
