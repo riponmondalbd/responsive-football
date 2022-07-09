@@ -1,0 +1,145 @@
+/* Common style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Top section styles */
+
+.top-banner-container {
+    background-color: #2D25A0;
+    height: 677px;
+    display: grid;
+    justify-content: center;
+}
+
+.top-banner {
+    width: 1160px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+
+}
+
+.top-banner-left-content h1 {
+    font-weight: 700;
+    font-size: 64px;
+    color: white;
+}
+
+.top-banner-button {
+    background-color: #E02C6D;
+    color: white;
+    padding: 10px 24px;
+    text-decoration: none;
+}
+
+.fa-arrow-right {
+    margin-left: 8px;
+}
+
+.top-banner-right-content img {
+    width: 100%;
+    transition: transform 2s ease-in 0.1s;
+}
+
+.top-banner-right-content img:hover {
+    transform: scale(1.2);
+}
+
+/* Blog section Styles */
+
+.article-section-container {
+    display: grid;
+    justify-content: center;
+}
+
+.articlels {
+    width: 1160px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-top: 70px;
+    
+}
+.single-article{
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.single-article img {
+    width: 100%;
+}
+.single-article h3 {
+    margin-top: 16px;
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-weight: 700;
+}
+.single-article p {
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6C6C6C;
+}
+/* Highlight section style */
+
+.highlight-section{
+    display: grid;
+    justify-content: center;
+    margin-top: 165px;
+
+}
+.highlight{
+    width: 1160px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 66px;
+    align-items: center;
+
+}
+.left-content-highlight h2{
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 48px;
+}
+.left-content-highlight p{
+    width: 404px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+    color: #6C6C6C;
+    font-weight: 400;
+    font-size: 16px;
+}
+.right-content-highlight img{
+    width: 100%;
+}
+
+/* Socal media section styles  */
+
+.socal-media-section{
+    display: grid;
+    justify-content: center;
+}
+.socal-media{
+    display: grid;
+    justify-items: center;
+}
+.logo-section img{
+    height: 110px;
+    margin-top: 158px;
+}
+.single-icon{
+    background-color: #0b0d171e;
+    border-radius: 50px;
+    font-size: 18px;
+    padding: 7px;
+    color: #969BAB;
+}
+.copyright p{
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 63px;
+    margin-top: 20px;
+}
